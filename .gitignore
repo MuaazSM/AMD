@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build
+.next/
+out/
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+_references/
+.claude/
+CLAUDE.md
+AGENTS.md
+PLAN.md
+skills-lock.json
+.agents/
+.kiro/
+.mcp.json
+xyz.txt
+
+# Python
+*.pyc
+*.pyo
+.pytest_cache/
+htmlcov/
+
+# Docker
+*.log
+
+# Backend venv (nested)
+backend/venv/
